@@ -356,11 +356,11 @@ msgid "Recommended Series"
 msgstr ""
 
 msgctxt "#31084"
-msgid "Search local library"
+msgid "Search Netflix"
 msgstr ""
 
 msgctxt "#31085"
-msgid "Search add-ons"
+msgid "Search PSVue"
 msgstr ""
 
 msgctxt "#31086"
@@ -368,7 +368,7 @@ msgid "Search YouTube"
 msgstr ""
 
 msgctxt "#31087"
-msgid "Search TheMovieDB"
+msgid "Search Amazon Prime"
 msgstr ""
 
 msgctxt "#31088"
