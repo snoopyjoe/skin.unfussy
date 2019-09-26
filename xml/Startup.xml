@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <window>
+    <onload condition="!String.IsEmpty(Skin.String(StartVideo))">AlarmClock(StartupDelay,PlayMedia($INFO[Skin.String(StartVideo)]),00:00,silent)</onload>
+    <onload condition="String.IsEmpty(Skin.String(search_window))">Skin.SetString(search_window,1105)</onload>
     <defaultcontrol always="true">8000</defaultcontrol>
     <controls>
         <include>background</include>
