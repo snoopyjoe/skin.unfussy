@@ -2,6 +2,9 @@
 <window>
     <defaultcontrol>100</defaultcontrol>
     <backgroundcolor>0</backgroundcolor>
+    <variable name="search">
+        <value condition="Container.Content(movies)">Skin.ToggleSetting(MovieExtraFanart)</value>
+    </variable>
     <controls>
         <include>background</include>
         <include content="info_header">
@@ -266,6 +269,30 @@
                         <selected>Skin.HasSetting(use_view_animations)</selected>
                         <onclick>Skin.ToggleSetting(use_view_animations)</onclick>
                     </control>
+                    <control type="button" id="213">
+                        <include>button_settings</include>
+                        <texturefocus colordiffuse="activedialog">colors/white.png</texturefocus>
+						            <font>regular30</font>
+			                  <label>Choose Bootup Video</label>
+	  		                <label2>[COLOR themecolor]$INFO[Skin.String(StartVideo)][/COLOR]</label2>
+	  		                <onclick>Skin.SetFile(StartVideo,.mp4|.avi|.wmv|.mov|.flv)</onclick>
+					         </control>
+                   <control type="button" id="214">
+                       <include>button_settings</include>
+                       <texturefocus colordiffuse="activedialog">colors/white.png</texturefocus>
+                       <font>regular30</font>
+                       <label>Always Search Streaming Addons</label>
+                       <visible>String.EndsWith(Skin.String(search_window),5)</visible>
+                       <onclick>Skin.SetString(search_window,1108)</onclick>
+                  </control>
+                  <control type="button" id="215">
+                       <include>button_settings</include>
+                       <texturefocus colordiffuse="activedialog">colors/white.png</texturefocus>
+                       <font>regular30</font>
+                       <label>Always Search Local Device</label>
+                       <visible>String.EndsWith(Skin.String(search_window),8)</visible>
+                       <onclick>Skin.SetString(search_window,1105)</onclick>
+                 </control>
                 </control>
             </control>
             <control type="group">
@@ -480,4 +507,4 @@
             </control>
         </control>
     </controls>
-</window> 
+</window>
