@@ -356,11 +356,11 @@ msgid "Recommended Series"
 msgstr ""
 
 msgctxt "#31084"
-msgid "Search Netflix"
+msgid "Search local library"
 msgstr ""
 
 msgctxt "#31085"
-msgid "Search PSVue"
+msgid "Search add-ons"
 msgstr ""
 
 msgctxt "#31086"
@@ -368,7 +368,7 @@ msgid "Search YouTube"
 msgstr ""
 
 msgctxt "#31087"
-msgid "Search Amazon Prime"
+msgid "Search TheMovieDB"
 msgstr ""
 
 msgctxt "#31088"
@@ -537,4 +537,20 @@ msgstr ""
 
 msgctxt "#31130"
 msgid "hide lyrics background"
+msgstr ""
+
+msgctxt "#31131"
+msgid "Search Netflix"
+msgstr ""
+
+msgctxt "#31132"
+msgid "Search PSVue"
+msgstr ""
+
+msgctxt "#31133"
+msgid "Search YouTube"
+msgstr ""
+
+msgctxt "#31134"
+msgid "Search Amazon"
 msgstr ""
