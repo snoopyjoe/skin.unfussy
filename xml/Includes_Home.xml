@@ -69,7 +69,7 @@
 			<include content="button_round">
 				<param name="id" value="703" />
 				<param name="onclick" value="SetProperty(menu_active, false)" />
-				<param name="onclick2" value="ActivateWindow(1105)" />
+				<param name="onclick2" value="ActivateWindow($INFO[Skin.String(search_window])" />
 				<param name="icon" value="icons/buttons/search.png" />
 			</include>
 		</control>
