@@ -539,18 +539,18 @@ msgctxt "#31130"
 msgid "hide lyrics background"
 msgstr ""
 
-msgctxt "#31131"
+msgctxt "#31135"
 msgid "Search Netflix"
 msgstr ""
 
-msgctxt "#31132"
+msgctxt "#31136"
 msgid "Search PSVue"
 msgstr ""
 
-msgctxt "#31133"
+msgctxt "#31137"
 msgid "Search YouTube"
 msgstr ""
 
-msgctxt "#31134"
+msgctxt "#31138"
 msgid "Search Amazon"
 msgstr ""

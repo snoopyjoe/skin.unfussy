@@ -34,25 +34,25 @@
                 </focusedlayout>
                 <content>
                     <item>
-                        <label>$LOCALIZE[31131]</label>
+                        <label>$LOCALIZE[31135]</label>
                         <onclick>Dialog.Close(all)</onclick>
                         <onclick condition="System.hasAddon(plugin.video.netflix)">ActivateWindow(videos,"plugin://plugin.video.netflix/directory/search/search/",return)</onclick>
                         <onclick condition="!System.hasAddon(plugin.video.netflix)">InstallAddon(plugin.video.netflix)</onclick>
                     </item>
                     <item>
-                        <label>$LOCALIZE[31132]</label>
+                        <label>$LOCALIZE[31136]</label>
                         <onclick>Dialog.Close(all)</onclick>
                         <onclick condition="System.hasAddon(plugin.video.psvue)">ActivateWindow(videos,"plugin://plugin.video.psvue/?mode=750",return)</onclick>
                         <onclick condition="!System.hasAddon(plugin.video.psvue)">InstallAddon(plugin.video.psvue)</onclick>
                     </item>
                     <item>
-                        <label>$LOCALIZE[31133]</label>
+                        <label>$LOCALIZE[31137]</label>
                         <onclick>Dialog.Close(all)</onclick>
                         <onclick condition="System.hasAddon(plugin.video.youtube)">ActivateWindow(videos,"plugin://plugin.video.youtube/kodion/search/list",return)</onclick>
                         <onclick condition="!System.hasAddon(plugin.video.youtube)">InstallAddon(plugin.video.youtube)</onclick>
                     </item>
                     <item>
-                        <label>$LOCALIZE[31134]</label>
+                        <label>$LOCALIZE[31138]</label>
                         <onclick>Dialog.Close(all)</onclick>
                         <onclick condition="System.hasAddon(plugin.video.amazon-test)">ActivateWindow(videos,"plugin://plugin.video.amazon-test/?cat=Browse&amp;mode=Search&amp;opt&amp;page=1&amp;url",return)</onclick>
                         <onclick condition="!System.hasAddon(plugin.video.amazon-test)">InstallAddon(plugin.video.amazon-test)</onclick>
